@@ -51,15 +51,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## Usage
-
-You can make predictions by sending POST requests to any of the model endpoints with an image file. The API will return the classification results.
-
-Example using curl:
-```bash
-uvicorn main:app --reload
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
