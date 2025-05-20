@@ -57,7 +57,7 @@ You can make predictions by sending POST requests to any of the model endpoints 
 
 Example using curl:
 ```bash
-curl -X POST "http://localhost:8000/predict/dinov2" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "file=@your_image.jpg"
+uvicorn main:app --reload
 ```
 
 ## License
